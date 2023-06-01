@@ -4,4 +4,4 @@ var greet= function(name)
  return "Hello, "+name;
 }
 
-console.log(greet("NEO"));
+//console.log(greet("NEO"));

@@ -27,4 +27,4 @@ function isWeekday(name)
     return false
 }
 }
-console.log(isWeekday("Monday"))
+//console.log(isWeekday("Monday"))

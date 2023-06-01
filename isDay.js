@@ -8,4 +8,4 @@ function isDayName(name)
 }
 
 // This line of code calls the isDayName function with an argument and logs the result to the console
-console.log(isDayName("Monday"));
+//console.log(isDayName("Monday"));
