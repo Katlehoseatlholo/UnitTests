@@ -1,9 +1,9 @@
 
 function isWeekday(name)
 {
-  if(name==myArray[0])
+  if(name=='Sunday')
   {
-    return true;
+    return false;
   }else if(name=="Monday")
   {
     return true;
