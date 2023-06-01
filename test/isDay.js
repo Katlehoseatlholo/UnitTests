@@ -1,5 +1,3 @@
-
-
 describe('isDayName', function() {
   it('should return true for valid day names', function() {
     assert.strictEqual(isDayName('Monday'), true);
