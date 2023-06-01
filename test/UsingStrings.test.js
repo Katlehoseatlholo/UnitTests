@@ -3,8 +3,8 @@ describe('greet', function() {
      
       assert.strictEqual(greet('NEO'), 'Hello, NEO');
       // Add more test cases if needed
-      assert.equal(greet('Bob'), 'Hello, Bob');
-assert.equal(greet('Sam'), 'Hello, Sam');
+      assert.strictEqual(greet('Bob'), 'Hello, Bob');
+assert.strictEqual(greet('Sam'), 'Hello, Sam');
     });
   });
   
