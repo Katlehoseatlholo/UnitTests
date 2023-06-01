@@ -1,4 +1,4 @@
-const assert = require('assert');
+
 
 describe('isWeekday', function() {
   const myArray = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];

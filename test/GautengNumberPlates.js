@@ -1,4 +1,4 @@
-const assert = require('assert');
+
 
 describe('isFromGauteng', function() {
   it('should return true for names ending with "GP"', function() {
