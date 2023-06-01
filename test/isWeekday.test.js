@@ -1,7 +1,6 @@
 
 
 describe('isWeekday', function() {
- // const myArray = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
   it('should return true for weekdays', function() {
     assert.equal(isWeekday('Saturday'), false);
