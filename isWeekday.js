@@ -1,25 +1,25 @@
-const myArray=["Monday", "Tuesday", "Wednesday", "Thursday","Friday","Saturday","Sunday"]
+
 function isWeekday(name)
 {
   if(name==myArray[0])
   {
     return true;
-  }else if(name==myArray[1])
+  }else if(name=="Monday")
   {
     return true;
-  }else if(name==myArray[2])
+  }else if(name=="Tuesday")
   {
     return true;
-  }else if(name==myArray[3])
+  }else if(name==  "Wednesday")
   {
     return true;
-  }else if(name==myArray[4])
+  }else if(name=="Thursday")
   {
     return true;
-  }else if(name==myArray[5])
+  }else if(name=="Friday")
   {
     return false;
-  }else if(name==myArray[6])
+  }else if(name=="Saturday")
   {
     return false;
   }else
