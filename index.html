@@ -12,10 +12,11 @@
 </head>
 
 <body>
-    <h1 class="heading" style="text-align: center; text-size-adjust: initial; background-color: rgb(59, 59, 3);">UNIT TEST MOCHA JS</h1>
-    <hr/>
+    <h1 class="heading" style="text-align: center; text-size-adjust: initial; background-color: rgb(59, 59, 3);">UNIT
+        TEST MOCHA JS</h1>
+    <hr />
     <section id="GautengNumberPlates" style="background-color: darkkhaki;">
-        <h1 class="gautengTitle">Greetings</h1>
+        <h1 class="gautengTitle">Welcome to Unit-Testing </h1>
         <div id="mocha1"></div>
         <script>
             // The Mocha test style to use - we use BDD (Behavior Driven Development)
@@ -26,61 +27,47 @@
 
         <!-- the function to be tested -->
         <script src="UsingStrings.js"></script>
+
         <script src="test/UsingStrings.test.js"></script>
-    </section>
-    <hr/>
-
-    <section id="isDay" style="background-color: yellowgreen;">
-        <h1 class="isDay">isDay</h1>
-        <div id="mocha2"></div>
-        <script>
-            // The Mocha test style to use - we use BDD (Behavior Driven Development)
-            mocha.setup('bdd');
-            // Ensure the assert function is available
-            var assert = chai.assert;
-        </script>
-
+        <hr />
+        <section id="isDay" style="background-color: yellowgreen;">
+            <h1 class="isDay">isDay</h1>
+            <div id="mocha2"></div>
+        </section>
         <!-- the function to be tested -->
         <script src="isDay.js"></script>
+
+        <hr />
         <script src="test/isDay.test.js"></script>
-    </section>
-
-    <hr/>
-    <section class="isWeekday" style="background-color: aqua;">
-        <h1 class="isWeekday">isWeekday</h1>
-        <div id="mocha3"></div>
-        <script>
-            // The Mocha test style to use - we use BDD (Behavior Driven Development)
-            mocha.setup('bdd');
-            // Ensure the assert function is available
-            var assert = chai.assert;
-        </script>
-
-        <!-- the function to be tested -->
+        <section class="isWeekday" style="background-color: aqua;">
+            <h1 class="isWeekday">isWeekday</h1>
+            <div id="mocha3"></div>
+        </section>
         <script src="isWeekday.js"></script>
         <script src="test/isWeekday.test.js"></script>
-    </section>
-
-    <section class="GautengNumberPlates" style="background-color: rgb(173, 103, 240);">
-        <h1 class="GautengPlates">Gauteng Number Plates</h1>
-        <div id="mocha4"></div>
-        <script>
-            // The Mocha test style to use - we use BDD (Behavior Driven Development)
-            mocha.setup('bdd');
-            // Ensure the assert function is available
-            var assert = chai.assert;
-        </script>
-
-        <!-- the function to be tested -->
+        <hr />
+        <section class="GautengNumberPlates" style="background-color: rgb(173, 103, 240);">
+            <h1 class="GautengPlates">Gauteng Number Plates</h1>
+        </section>
         <script src="GautengNumberPlates.js"></script>
         <script src="test/GautengNumberPlates.test.js"></script>
 
-        <script>
-            // Configure and run Mocha
-            mocha.checkLeaks();
-            mocha.run();
-        </script>
     </section>
+    <hr />
+
+
+
+    <hr />
+
+
+    <!-- the function to be tested -->
+
+    <script>
+        // Configure and run Mocha
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+
 </body>
 
 </html>
