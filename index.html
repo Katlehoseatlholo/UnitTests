@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.min.js" charset="utf-8"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+
+    <title>Free Code Camp Tests</title>
+</head>
+
+<body>
+    <section id="GautengNumberPlates" style="background-color: darkkhaki;">
+        <h1 class="gautengTitle">Gauteng NumberPlates</h1>
+        <div id="mocha"></div>
+        <script>
+            // the mocha test style to use - we use BDD - Behviour Driven Development
+            mocha.setup('bdd');
+            //ensure the assert function is available
+            var assert = chai.assert;
+        </script>
+
+        <!-- the function to be tested -->
+        <script src="UsingStrings.js"></script>
+        <script src="test/UsingStrings.js"></script>
+
+        <script>
+            // configure and run mocha
+            mocha.checkLeaks();
+            mocha.run();
+        </script>
+    </section>
+    <hr/>
+
+    <section id="isDay" style="background-color: yellowgreen;">
+        <h1 class="isDay">isDay</h1>
+        <div id="mocha"></div>
+        <script>
+            // the mocha test style to use - we use BDD - Behviour Driven Development
+            mocha.setup('bdd');
+            //ensure the assert function is available
+            var assert = chai.assert;
+        </script>
+
+        <!-- the function to be tested -->
+
+        <script src="isDay.js"></script>
+        <script src="test/isDay.js"></script>
+        <script>
+            // configure and run mocha
+            mocha.checkLeaks();
+            mocha.run();
+        </script>
+
+    </section>
+
+    <hr/>
+    <section class="isWeekday" style="background-color: aqua;">
+
+        <h1 class="isWeekday">isWeekday</h1>
+        <div id="mocha"></div>
+        <script>
+            // the mocha test style to use - we use BDD - Behviour Driven Development
+            mocha.setup('bdd');
+            //ensure the assert function is available
+            var assert = chai.assert;
+        </script>
+
+        <!-- the function to be tested -->
+
+        <script src="isWeekday.js"></script>
+        <script src="test/isWeekday.js"></script>
+
+        <script>
+            // configure and run mocha
+            mocha.checkLeaks();
+            mocha.run();
+        </script>
+
+
+    </section>
+
+    <section class="GautengNumberPlates" style="background-color: rgb(173, 103, 240);">
+
+        <h1 class="GautengPlates">Gauteng Number Plates</h1>
+        <div id="mocha"></div>
+        <script>
+            // the mocha test style to use - we use BDD - Behviour Driven Development
+            mocha.setup('bdd');
+            //ensure the assert function is available
+            var assert = chai.assert;
+        </script>
+
+        <!-- the function to be tested -->
+
+        <script src="GautengNumberPlates.js"></script>
+        <script src="test/GautengNumberPlates.js"></script>
+
+        <script>
+            // configure and run mocha
+            mocha.checkLeaks();
+            mocha.run();
+        </script>
+
+
+    </section>
+
+
+
+</body>
+
+</html>
