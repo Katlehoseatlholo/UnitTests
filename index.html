@@ -3,42 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
     <title>Free Code Camp Tests</title>
 </head>
 
-<body>
-    <h1 class="heading" style="text-align: center; text-size-adjust: initial; background-color: rgb(59, 59, 3);">UNIT TEST MOCHA JS</h1>
+<body style="background-color: antiquewhite;">
+    <h1 class="heading" style="text-align: center; text-size-adjust: initial; background-color: rgb(224, 224, 120);">UNIT TEST MOCHA JS</h1>
     <hr/>
-    <section id="GautengNumberPlates" style="background-color: darkkhaki;">
-        <h1 class="gautengTitle">Greetings</h1>
-        <div id="mocha1"></div>
+    <section>
+
+        <div id="mocha"></div>
         <script>
-            // The Mocha test style to use - we use BDD (Behavior Driven Development)
             mocha.setup('bdd');
-            // Ensure the assert function is available
             var assert = chai.assert;
         </script>
+    <script src="test/GautengNumberPlates.test.js"></script>
 
-        <!-- the function to be tested -->
-        <script src="test/GautengNumberPlates.test.js"></script>
+    <script src="test/isDay.test.js"></script>
+    <script src="test/isWeekday.test.js"></script>
 
-        <script src="test/isDay.test.js"></script>
-        <script src="test/isWeekday.test.js"></script>
-    
-        <script src="test/UsingStrings.test.js"></script>
-    </section>
-    <hr/>
-    
+    <script src="test/UsingStrings.test.js"></script>
+
         <script>
-            // Configure and run Mocha
             mocha.checkLeaks();
             mocha.run();
         </script>
+
+        
     </section>
 </body>
 
