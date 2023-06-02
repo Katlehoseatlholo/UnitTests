@@ -19,17 +19,20 @@
         <div id="mocha"></div>
         <script>
             mocha.setup('bdd');
+            mocha.checkLeaks();
             var assert = chai.assert;
         </script>
+    <script src="./GautengNumberPlates.js"></script>
     <script src="./test/GautengNumberPlates.test.js"></script>
-
+        <script src="./isDay.js"></script>
     <script src="./test/isDay.test.js"></script>
+        <script src="./isWeekday.js"></script>
     <script src="./test/isWeekday.test.js"></script>
-
+        <script src="./UsingStrings.js"></script>
     <script src="./test/UsingStrings.test.js"></script>
 
-        <script>
-            mocha.checkLeaks();
+        <script class="moch-exec">
+           
             mocha.run();
         </script>
 
