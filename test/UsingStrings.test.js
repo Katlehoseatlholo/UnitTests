@@ -1,10 +1,17 @@
+// Import the 'assert' module from Chai
+//const assert = chai.assert;
+
+// Test suite
 describe('greet', function() {
-    it('should return a greeting message with the provided name', function() {
-     
-      assert.strictEqual(greet('NEO'), 'Hello, NEO');
-      // Add more test cases if needed
-      assert.strictEqual(greet('Bob'), 'Hello, Bob');
-assert.strictEqual(greet('Sam'), 'Hello, Sam');
-    });
+  // Test case 1: Valid name should return the greeting message
+  it('should return the greeting message with the provided name', function() {
+    assert.equal(greet('John'), 'Hello, John');
+    assert.equal(greet('Alice'), 'Hello, Alice');
+    assert.equal(greet('Bob'), 'Hello, Bob');
   });
-  
+
+  // Test case 2: Empty name should return the greeting message with an empty string
+  it('should return the greeting message with an empty string for empty name', function() {
+    assert.equal(greet(''), 'Hello, ');
+  });
+});
